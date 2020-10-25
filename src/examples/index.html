@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,500|Google+Sans:400,500,700|Material+Icons|Google+Sans+Display:400,500,700|Google+Sans+Text+Beta:400,500,700,400i,500i,700i"
+      rel="stylesheet"
+    />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: rgb(255, 255, 255);
+        color: #373a3c;
+        -webkit-print-color-adjust: exact;
+        box-sizing: border-box;
+        /* font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+          Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+          segoe ui symbol; */
+        font-family: "Google Sans Text Beta", Roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+
+      .slink {
+        font-size: 0.75em;
+      }
+
+      .section-skills > div:not(:last-child) {
+        width: 40%;
+      }
+
+      .section-skills > div:last-child {
+        width: 20%;
+      }
+
+      .page {
+        position: relative;
+        page-break-after: auto;
+        overflow: hidden;
+      }
+
+      .tracked-sm {
+        letter-spacing: 0.01em;
+      }
+
+      small {
+        font-size: 0.75em;
+      }
+
+      .slink {
+        font-size: 0.575em;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        width: auto;
+        color: ##222;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+      }
+
+      h1,
+      h2 {
+        line-height: 28px;
+      }
+
+      .gs {
+        font-family: "Google Sans", Roboto, Arial, sans-serif;
+      }
+
+      .gsd {
+        font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+      }
+
+      .gsdt {
+        font-family: "Google Sans Text Beta", Roboto, sans-serif;
+      }
+
+      .color-dark {
+        color: ##222;
+      }
+
+      .l-body {
+        width: 65%;
+      }
+
+      .l-body > p {
+        color: #414549;
+        font-size: 0.575em;
+      }
+
+      ul > li {
+        color: #414549;
+        font-size: 0.925em;
+        line-height: 14px;
+      }
+
+      time {
+        font-family: "Roboto Mono", Roboto, Arial, monospace;
+      }
+
+      .l-body > time,
+      .l-body > div > time {
+        font-size: 0.575em;
+      }
+
+      .r-body {
+        width: 35%;
+      }
+
+      .tracked-heading {
+        /* letter-spacing: -0.015em; */
+      }
+
+      .f7 {
+        font-size: 0.6rem;
+      }
+
+      .step-down {
+        font-size: 0.75em;
+      }
+
+      .measure-narrower {
+        width: 90%;
+      }
+
+      .wrapper {
+        padding: 6% 9.125%;
+      }
+
+      .purple {
+        color: #542bff;
+      }
+
+      @media print {
+        body {
+        }
+
+        .page {
+          margin: 0;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page black-80">
+      <div class="row wrapper fw4">
+        <div class="col">
+          <div class="card">
+            <div class="fl w-70">
+              <span class="dib pointer f7 tracked-sm f5-ns fw6 mb1 link"
+                >{{ name }}</span
+              >
+            </div>
+            <div class="fl w-30">
+              {{#topright}}
+              <a href="{{ url }}" class="pb1 link purple dim db slink"
+                >{{ content }}</a
+              >
+              {{/topright}}
+            </div>
+          </div>
+          <div class="fl mt3">
+            <h1 class="black-100 tracked-heading measure-narrower f2 b gsd fw7">
+              <span class="step-down">{{ title }}</span>
+            </h1>
+          </div>
+          <div class="fl w-100">
+            <div>
+              <div class="fl r-body mt2">
+                <a class="link pointer dib f7 tracked-sm f7-ns fw6 mt0 mb1">
+                  Experience
+                </a>
+              </div>
+              <div class="fl l-body mt2">
+                {{#experience}}
+                <h5 class="dib f7 f7-ns fw6 mt0 mb1 w-100">
+                  {{company}} · {{position}}
+                </h5>
+                <time class="db i f7 gray mb1">
+                  {{ duration.start }} - {{duration.end}}
+                  {{^duration.end}}Present{{/duration.end}}</time
+                >
+                <p class="measure-wide f7 lh-copy mt0">{{description}}</p>
+                {{/experience}}
+              </div>
+            </div>
+
+            <div class="mt1">
+              <div class="fl r-body mt3">
+                <a class="link pointer dib f7 tracked-sm f7-ns fw6 mt0 mb1">
+                  Education
+                </a>
+              </div>
+              <div class="fl l-body mt3">
+                {{#education}}
+                <h5 class="dib f7 f7-ns fw6 mt0 mb1 w-100">{{university}}</h5>
+                <time class="db i f7 gray mb1">
+                  {{ duration.start }} - {{duration.end}}
+                  {{^duration.end}}Present{{/duration.end}}</time
+                >
+                <p class="measure-wide f7 lh-copy mt0">{{description}}</p>
+                {{/education}}
+              </div>
+            </div>
+
+            <div class="mt1">
+              <div class="fl r-body mt3">
+                <a class="link pointer dib f7 tracked-sm f7-ns fw6 mt0 mb1">
+                  Skills
+                </a>
+              </div>
+              <div class="fl l-body mt3 section-skills">
+                {{#skills}}
+                <div class="fl">
+                  <span class="dib f7 tracked-sm f7-ns fw6 mt0 link">
+                    {{ title }}
+                  </span>
+                  <ul class="list pl0 f7 mt0">
+                    {{#content}}
+                    <li>{{ . }}</li>
+                    {{/content}}
+                  </ul>
+                </div>
+                {{/skills}}
+              </div>
+            </div>
+
+            <div>
+              <div class="fl r-body mt3">
+                <a class="link pointer dib f7 tracked-sm f7-ns fw6 mb1 link">
+                  Social
+                </a>
+              </div>
+              <div class="fl l-body mt3">
+                {{#social}}
+                <div class="fl w-50">
+                  {{#.}}
+                  <a href="{{url}}" class="pb1 link purple dim db slink"
+                    >{{content}}</a
+                  >
+                  {{/.}}
+                </div>
+                {{/social}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

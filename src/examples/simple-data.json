@@ -1,0 +1,134 @@
+{
+  "name": "Murshid Azher",
+  "title": "Freelance designer and front-end web developer from Sri Lanka.",
+  "dateformat": "MMM YYYY",
+  "topright": [
+    {
+      "title": "email",
+      "url": "mailto:hello@murshidazher.com",
+      "content": "hello@murshidazher.com"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://linkedin.com/in/murshidazher",
+      "content": "linkedin.com/in/murshidazher"
+    },
+    {
+      "title": "website",
+      "url": "https://murshidazher.com",
+      "content": "murshidazher.com"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Angel Investment Network",
+      "position": "Lead UX/UI Designer",
+      "duration": {
+        "start": "Oct 2014",
+        "end": null
+      },
+      "description": "Design research, problem statements, information architecture, site mapping, ideation, sketching, wire-framing and front-end prototyping. Usability testing. Building front-end design systems. Visual identity design, icon design and illustration."
+    },
+    {
+      "company": "Harvey Nichols",
+      "position": "Web & Editorial Designer",
+      "duration": {
+        "start": "Oct 2011",
+        "end": "April 2015"
+      },
+      "description": "Editorial design and layout for print and web. Photographic retouching & image manipulation. Photography."
+    },
+    {
+      "company": "Avenue 32",
+      "position": "Web & Editorial Designer",
+      "duration": {
+        "start": "Feb 2013",
+        "end": "Jul 2013"
+      },
+      "description": "Editorial design for print and web. Photographic retouching & image manipulation."
+    },
+    {
+      "company": "SampsonMay Design",
+      "position": "Front-end Developer",
+      "duration": {
+        "start": "Feb 2011",
+        "end": "April 2011"
+      },
+      "description": "Website design and development. HTML and CSS prototyping."
+    }
+  ],
+  "education": [
+    {
+      "university": "University of the Arts London",
+      "certification": null,
+      "duration": {
+        "start": "Jan 2008",
+        "end": "Mar 2008"
+      },
+      "description": "Design for Visual Communication, Desktop Publishing, Design & Layout Skills, Pixel and Vector Based Image Manipulation."
+    },
+    {
+      "university": "University of Leeds",
+      "certification": null,
+      "duration": {
+        "start": "11 Sept 2004",
+        "end": "14 Sept 2020"
+      },
+      "description": "BA(Hons) Fine Art & History of Art."
+    }
+  ],
+  "skills": [
+    {
+      "title": "Software",
+      "content": [
+        "Figma",
+        "Framer",
+        "Sketch",
+        "Invision",
+        "Adobe Suite",
+        "Marvel"
+      ]
+    },
+    {
+      "title": "Languages",
+      "content": [
+        "HTML5",
+        "CSS3 & SCSS",
+        "JavaScript",
+        "Ajax",
+        "React",
+        "GraphQL"
+      ]
+    },
+    {
+      "title": "Tools",
+      "content": ["Git", "Gulp", "Webpack", "Netlify", "Hugo", "Gatsby"]
+    }
+  ],
+  "social": [
+    [
+      {
+        "title": "dribbble",
+        "url": "https://dribbble.com/murshidazher",
+        "content": "linkedin.com/in/murshidazher"
+      },
+      {
+        "title": "github",
+        "url": "https://github.com/murshidazher",
+        "content": "github.com/murshidazher"
+      }
+    ],
+    [
+      {
+        "title": "twitter",
+        "url": "https://twitter.com/murshidazher",
+        "content": "twitter.com/murshidazher"
+      },
+      {
+        "title": "medium",
+        "url": "https://medium.com/@imurshid",
+        "content": "medium.com/@imurshid"
+      }
+    ]
+  ]
+}
