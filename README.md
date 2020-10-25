@@ -102,4 +102,4 @@ Can be embedded to template HTML:
 
 ## License
 
-[MIT](https://github.com/murshidazher/murshid/blob/master/LICENSE) © Murshid Azher.
+[MIT](https://github.com/murshidazher/murshid/blob/resume/LICENSE) © Murshid Azher.
