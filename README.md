@@ -6,13 +6,18 @@
 ![GitHub](https://img.shields.io/github/license/murshidazher/resume?style=flat-square)
 ![Blazing Fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)
 
-> A simple tool to automate resume generation.
+> A simple tool to automate my resume generation.
 
 - A tool to automate my resume generation process using `JSON` and `hojan` templating engine.
+
+#### Rationale
+
+Designing your resume or adding a new property can be repetitive and time-consuming. This project simplifies that process.
 
 ## Table of Contents
 
 - [resume](#resume)
+      - [Rationale](#rationale)
   - [Table of Contents](#table-of-contents)
   - [Tools](#tools)
   - [Installing / Getting started](#installing--getting-started)
