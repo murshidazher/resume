@@ -50,7 +50,7 @@ First of all you have to install `npm` and `node.js` to your box - note that `No
 First of all you have to install `npm` and `node.js` to your box. Installation instructions can
 be found [here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager).
 
-Note that `node.js 6.x` is required.
+Note that `node.js 6.x` or higher is required.
 
 ```bash
 $ git clone https://github.com/murshidazher/resume.git
