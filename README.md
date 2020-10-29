@@ -78,9 +78,9 @@ $ node bin/convert
 Creating example file
 
 ```bash
-$ npm run convert -- src/examples/index.html out/index.pdf --data '{"name": "Your Name", "dateformat": "MMM YYYY", "content": "Lorem ipsum dolor."}'
+$ npm run convert -- src/examples/index.html out/index.pdf --data '{"name": "Your Name", "dateformat": "MMM YYYY", "title": "Lorem ipsum dolor."}'
 # OR
-$ node bin/convert src/examples/index.html out/index.pdf --data '{"name": "Your Name", "dateformat": "MMM YYYY", "content": "Lorem ipsum dolor."}'
+$ node bin/convert src/examples/index.html out/index.pdf --data '{"name": "Your Name", "dateformat": "MMM YYYY", "title": "Lorem ipsum dolor."}'
 ```
 
 ### Web UI
@@ -96,6 +96,18 @@ Then open your `http://localhost:3000/` within your favorite browser.
 ### Handlers
 
 Handlers are way to make embedded data-conversions to templates.
+
+Create your own pipeline handlers and add them to `index.js` and add them to all promise middleware,
+
+```js
+...
+Promise
+  .all([
+    someOtherHandler(data),
+    yourHandler(data)
+  ]
+...
+```
 
 ### Templating
 
