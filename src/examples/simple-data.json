@@ -21,22 +21,22 @@
   ],
   "experience": [
     {
-      "company": "Angel Investment Network",
-      "position": "Lead UX/UI Designer",
+      "company": "Atera Technologies",
+      "position": "Software Engineer",
       "duration": {
-        "start": "Oct 2014",
+        "start": "Mar 2020",
         "end": null
       },
       "description": "Design research, problem statements, information architecture, site mapping, ideation, sketching, wire-framing and front-end prototyping. Usability testing. Building front-end design systems. Visual identity design, icon design and illustration."
     },
     {
-      "company": "Harvey Nichols",
-      "position": "Web & Editorial Designer",
+      "company": "Top Bug Education",
+      "position": "Software Engineer",
       "duration": {
-        "start": "Oct 2011",
-        "end": "April 2015"
+        "start": "Feb 2018",
+        "end": "Dec 2018"
       },
-      "description": "Editorial design and layout for print and web. Photographic retouching & image manipulation. Photography."
+      "description": "Coordinated efficiently with a team of 12 members with skills in engineering and design while participating in peer design critiques to give and receive feedbacks. Building front-end and integrating design features which accelerate delivery time by 25% and decrease site crashes by 60%."
     },
     {
       "company": "Avenue 32",
@@ -59,50 +59,50 @@
   ],
   "education": [
     {
-      "university": "University of the Arts London",
+      "university": "University of New York, Stony Brook",
       "certification": null,
       "duration": {
-        "start": "Jan 2008",
-        "end": "Mar 2008"
+        "start": "Sept 2015",
+        "end": "Sept 2017"
       },
-      "description": "Design for Visual Communication, Desktop Publishing, Design & Layout Skills, Pixel and Vector Based Image Manipulation."
+      "description": "Bachelor of Computer Science. CGPA 3.95"
     },
     {
-      "university": "University of Leeds",
+      "university": "Buckinghamshire New University",
       "certification": null,
       "duration": {
-        "start": "11 Sept 2004",
-        "end": "14 Sept 2020"
+        "start": "Aug 2019",
+        "end": "Aug 2020"
       },
-      "description": "BA(Hons) Fine Art & History of Art."
+      "description": "Bachelor of Computing."
     }
   ],
   "skills": [
     {
-      "title": "Software",
+      "title": "Framework",
       "content": [
-        "Figma",
-        "Framer",
-        "Sketch",
-        "Invision",
-        "Adobe Suite",
-        "Marvel"
+        "React",
+        "Angular",
+        "React Native",
+        "Svelte",
+        "Express",
+        "Redux"
       ]
     },
     {
       "title": "Languages",
       "content": [
-        "HTML5",
+        "TypeScript",
         "CSS3 & SCSS",
-        "JavaScript",
-        "Ajax",
-        "React",
-        "GraphQL"
+        "HTML5",
+        "Python",
+        "Java",
+        "JavaScript"
       ]
     },
     {
       "title": "Tools",
-      "content": ["Git", "Gulp", "Webpack", "Netlify", "Hugo", "Gatsby"]
+      "content": ["Basic DevOps", "Docker", "Kubernetes", "AWS", "Firebase", "Azure"]
     }
   ],
   "social": [
