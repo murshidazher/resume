@@ -12,7 +12,7 @@
 
 #### Rationale
 
-Designing your resume or adding a new property can be repetitive and time-consuming. This project simplifies that process.
+Designing your resume or adding a new property can be repetitive and time-consuming. This project simplifies that process making it hassle-free and enjoyable. Satisfaction guaranteed 💯 💯 💯
 
 ## Table of Contents
 
