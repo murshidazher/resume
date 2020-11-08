@@ -12,7 +12,7 @@
 
 #### Rationale
 
-Designing your resume or adding a new property can be repetitive and time-consuming. This project simplifies that process making it hassle-free and enjoyable. Satisfaction guaranteed 💯 💯 💯
+Designing your resume or adding a new property can be repetitive and time-consuming. This project simplifies that process making it hassle-free and enjoyable. Satisfaction 💯 💯
 
 ## Table of Contents
 
@@ -120,3 +120,4 @@ Can be embedded to template HTML:
 ## License
 
 [MIT](https://github.com/murshidazher/murshid/blob/resume/LICENSE) © Murshid Azher.
+
