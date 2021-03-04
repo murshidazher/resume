@@ -1,6 +1,6 @@
 {
   "name": "Murshid Azher",
-  "title": "Freelance designer and front-end web developer from Sri Lanka.",
+  "title": "Freelance designer and full-stack engineer from Sri Lanka.",
   "dateformat": "MMM YYYY",
   "topright": [
     {
@@ -22,7 +22,7 @@
   "experience": [
     {
       "company": "Atera Technologies",
-      "position": "Software Engineer",
+      "position": "Associate Software Engineer",
       "duration": {
         "start": "Mar 2020",
         "end": null
@@ -37,24 +37,6 @@
         "end": "Dec 2018"
       },
       "description": "Coordinated efficiently with a team of 12 members with skills in engineering and design while participating in peer design critiques to give and receive feedbacks. Building front-end and integrating design features which accelerate delivery time by 25% and decrease site crashes by 60%."
-    },
-    {
-      "company": "Avenue 32",
-      "position": "Web & Editorial Designer",
-      "duration": {
-        "start": "Feb 2013",
-        "end": "Jul 2013"
-      },
-      "description": "Editorial design for print and web. Photographic retouching & image manipulation."
-    },
-    {
-      "company": "SampsonMay Design",
-      "position": "Front-end Developer",
-      "duration": {
-        "start": "Feb 2011",
-        "end": "April 2011"
-      },
-      "description": "Website design and development. HTML and CSS prototyping."
     }
   ],
   "education": [
@@ -65,7 +47,7 @@
         "start": "Sept 2015",
         "end": "Sept 2017"
       },
-      "description": "Bachelor of Computer Science. CGPA 3.95"
+      "description": "Bachelor of Science in Computer Science. CGPA 3.95"
     },
     {
       "university": "Buckinghamshire New University",
@@ -74,7 +56,16 @@
         "start": "Aug 2019",
         "end": "Aug 2020"
       },
-      "description": "Bachelor of Computing."
+      "description": "Bachelor of Computing in Software Engineering."
+    },
+    {
+      "university": "University of Westminster",
+      "certification": null,
+      "duration": {
+        "start": "Jan 2021",
+        "end": null
+      },
+      "description": "Masters of Science in Advance Software Engineering."
     }
   ],
   "skills": [
@@ -102,7 +93,14 @@
     },
     {
       "title": "Tools",
-      "content": ["Basic DevOps", "Docker", "Kubernetes", "AWS", "Firebase", "Azure"]
+      "content": [
+        "Basic DevOps",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Firebase",
+        "Azure"
+      ]
     }
   ],
   "social": [
