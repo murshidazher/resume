@@ -27,7 +27,7 @@
         "start": "Mar 2020",
         "end": null
       },
-      "description": "Design research, problem statements, information architecture, site mapping, ideation, sketching, wire-framing and front-end prototyping. Usability testing. Building front-end design systems. Visual identity design, icon design and illustration."
+      "description": "Design research, ideation, wire-framing, system architecture, full-stack development. Developed and and maintained a SaaS product to make hiring process seamless for enterprises.  Developed and maintained 'Resume extractor model' azure function app. Used Azure, C# services, AngularJS, and more..."
     },
     {
       "company": "Top Bug Education",
@@ -41,13 +41,13 @@
   ],
   "education": [
     {
-      "university": "University of New York, Stony Brook",
+      "university": "University of Westminster",
       "certification": null,
       "duration": {
-        "start": "Sept 2015",
-        "end": "Sept 2017"
+        "start": "Jan 2021",
+        "end": null
       },
-      "description": "Bachelor of Science in Computer Science. CGPA 3.95"
+      "description": "Masters of Science in Advance Software Engineering."
     },
     {
       "university": "Buckinghamshire New University",
@@ -59,13 +59,13 @@
       "description": "Bachelor of Computing in Software Engineering."
     },
     {
-      "university": "University of Westminster",
+      "university": "University of New York, Stony Brook",
       "certification": null,
       "duration": {
-        "start": "Jan 2021",
-        "end": null
+        "start": "Sept 2015",
+        "end": "Sept 2017"
       },
-      "description": "Masters of Science in Advance Software Engineering."
+      "description": "Bachelor of Science in Computer Science. CGPA 3.95"
     }
   ],
   "skills": [
