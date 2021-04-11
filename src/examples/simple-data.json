@@ -27,7 +27,7 @@
         "start": "Mar 2020",
         "end": null
       },
-      "description": "Design research, ideation, wire-framing, system architecture, full-stack development. Developed and and maintained a SaaS product to make hiring process seamless for enterprises.  Developed and maintained 'Resume extractor model' azure function app. Used Azure, C# services, AngularJS, and more..."
+      "description": "Developed and and maintained a SaaS product to make hiring process seamless for enterprises. Involved in every phase of the product development process from design analysis to ideation, wire-framing, system architecture, and full-stack development. Developed and maintained 'Resume extractor model' azure function app. Used Azure, C# services, Angular, and more..."
     },
     {
       "company": "Top Bug Education",
@@ -36,7 +36,7 @@
         "start": "Feb 2018",
         "end": "Dec 2018"
       },
-      "description": "Coordinated efficiently with a team of 12 members with skills in engineering and design while participating in peer design critiques to give and receive feedbacks. Building front-end and integrating design features which accelerate delivery time by 25% and decrease site crashes by 60%."
+      "description": "Coordinated efficiently with a team of 12 members with skills in engineering and design while participating in peer design critiques to give and receive feedbacks. Building front-end and integrating design features which accelerate delivery time and decrease site crashes. Transitioned app from AngularJS front-end to React + Redux resulting in a cleaner design and faster execution."
     }
   ],
   "education": [
@@ -47,7 +47,7 @@
         "start": "Jan 2021",
         "end": null
       },
-      "description": "Masters of Science in Advance Software Engineering."
+      "description": "Master of Science in Advance Software Engineering."
     },
     {
       "university": "Buckinghamshire New University",
@@ -65,7 +65,7 @@
         "start": "Sept 2015",
         "end": "Sept 2017"
       },
-      "description": "Bachelor of Science in Computer Science. CGPA 3.95"
+      "description": "Bachelor of Science in Computer Science."
     }
   ],
   "skills": [
