@@ -22,16 +22,15 @@
     "commander": "2.15.1",
     "cookie-parser": "1.4.3",
     "dayjs": "^1.9.4",
+    "debug": "3.1.0",
     "express": "4.16.3",
     "hjs": "0.0.6",
-    "html-pdf": "2.2.0",
-    "morgan": "1.9.0",
+    "html-pdf": "~3.0.1",
+    "morgan": "~1.10.0",
     "serve-favicon": "2.5.0",
     "upath": "1.1.0"
   },
-  "devDependencies": {
-    "debug": "3.1.0"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/murshidazher/resume.git"
