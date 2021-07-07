@@ -1,5 +1,5 @@
-jQuery(document).ready(function() {
-  jQuery('#form').on('submit', function(event) {
+jQuery(document).ready(function () {
+  jQuery('#form').on('submit', function (event) {
     event.preventDefault();
 
     let form = jQuery('#form');
@@ -7,13 +7,21 @@ jQuery(document).ready(function() {
 
     jQuery
       .ajax(
-        form.attr('action'),
-        {
+        form.attr('action'), {
           contentType: 'application/json',
           method: 'POST',
           dataType: 'binary',
           processData: false,
           data: JSON.stringify(data),
+          cache: false,
+          crossDomain: true,
+          xhrFields: {
+            withCredentials: true
+          },
+          headers: {
+            "Accept": "application/x-list",
+            "Content-Type": "application/json; charset=utf-8"
+          },
         }
       )
       .then(
@@ -28,11 +36,11 @@ jQuery(document).ready(function() {
       );
   });
 
-  $.fn.serializeObject = function() {
+  $.fn.serializeObject = function () {
     const a = this.serializeArray();
     let o = {};
 
-    $.each(a, function() {
+    $.each(a, function () {
       if (o[this.name] !== undefined) {
         if (!o[this.name].push) {
           o[this.name] = [o[this.name]];
