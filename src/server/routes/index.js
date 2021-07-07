@@ -7,6 +7,15 @@ const path = require('path');
 const htmlToPdf = require('./../../index');
 const dayjs = require('dayjs');
 
+
+/**
+ * Change the protocol based on environment
+ */
+let protocol = 'https';
+if (process.env.NODE_ENV = 'dev') {
+  protocol = 'http';
+}
+
 /**
  * Default route to show a demo form.
  */
@@ -15,7 +24,8 @@ router.get('/', (req, res) => {
     'index',
     {
       title: 'Generate Resume',
-      serverAddress: req.protocol + '://' + req.get('host') + req.originalUrl,
+      // serverAddress: req.protocol + '://' + req.get('host') + req.originalUrl,
+      serverAddress: protocol + '://' + req.get('host') + req.originalUrl,
       defaultFilename: `murshid-azher-cv-${dayjs().format("MMM-YY").toString().toLowerCase()}.pdf`,
       defaultSource: fs.readFileSync(path.resolve(__dirname, '..', '..', 'examples', 'index.html')),
       defaultTemplateData: fs.readFileSync(path.resolve(__dirname, '..', '..', 'examples', 'simple-data.json')),
