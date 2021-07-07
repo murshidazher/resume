@@ -12,7 +12,7 @@ const dayjs = require('dayjs');
  * Change the protocol based on environment
  */
 let protocol = 'https';
-if (process.env.NODE_ENV = 'dev') {
+if (process.env.NODE_ENV == 'dev') {
   protocol = 'http';
 }
 
