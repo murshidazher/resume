@@ -9,7 +9,7 @@ const dayjs = require('dayjs');
 
 
 /**
- * Change the protocol based on environment
+ * Default protocol based on environment (http/https)
  */
 let protocol = 'https';
 if (process.env.NODE_ENV == 'dev') {
@@ -21,8 +21,7 @@ if (process.env.NODE_ENV == 'dev') {
  */
 router.get('/', (req, res) => {
   res.render(
-    'index',
-    {
+    'index', {
       title: 'Generate Resume',
       // serverAddress: req.protocol + '://' + req.get('host') + req.originalUrl,
       serverAddress: protocol + '://' + req.get('host') + req.originalUrl,
