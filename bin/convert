@@ -24,19 +24,20 @@ program
   });
 
 program.parse(process.argv);
+const options = program.opts();
 
 if (typeof source === "undefined" || typeof destination === "undefined") {
   program.outputHelp();
   process.exit(0);
 }
 
-if (program.file) {
-  program.data = fs
-    .readFileSync(program.file.trim(), "utf8")
+if (options.file) {
+  options.data = fs
+    .readFileSync(options.file.trim(), "utf8")
     .replace(/^\uFEFF/, "");
 }
 
-const jsonData = JSON.parse(program.data.trim());
+const jsonData = JSON.parse(options.data.trim());
 
 if (jsonData) {
   app
