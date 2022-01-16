@@ -1,19 +1,23 @@
 #!/usr/bin/env node
-'use strict';
+"use strict";
 
-const program = require('commander');
-const fs = require('fs');
-const packageData = JSON.parse(fs.readFileSync(__dirname + '/../package.json', 'utf8'));
-const app = require('./../src/index');
+const program = require("commander");
+const fs = require("fs");
+const path = require("path");
+
+const packageData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "..", "package.json"), "utf8")
+);
+const app = require("./../src/index");
 
 let source;
 let destination;
 
 program
   .version(packageData.version)
-  .arguments('<source> <destination>')
-  .option('-d, --data <json>', 'Template data as JSON string')
-  .option('-f, --file <path>', 'Template data as JSON file')
+  .arguments("<source> <destination>")
+  .option("-d, --data <json>", "Template data as JSON string")
+  .option("-f, --file <path>", "Template data as JSON file")
   .action((s, d) => {
     source = s;
     destination = d;
@@ -21,22 +25,35 @@ program
 
 program.parse(process.argv);
 
-if (typeof source === 'undefined' || typeof destination === 'undefined') {
+if (typeof source === "undefined" || typeof destination === "undefined") {
   program.outputHelp();
   process.exit(0);
 }
 
-if(program.file) {
-  program.data = fs.readFileSync(program.file, 'utf8').replace(/^\uFEFF/, '');
+if (program.file) {
+  program.data = fs
+    .readFileSync(program.file.trim(), "utf8")
+    .replace(/^\uFEFF/, "")
+    .trim();
+} else {
+  console.log("No data found");
+  process.exit(0);
 }
 
-app
-  .createFileFromSourceFile(source, destination, JSON.parse(program.data))
-  .then(results => {
-    console.log('Success');
-    console.log(results);
-  })
-  .catch((error) => {
-    console.log('Error');
-    console.error(error);
-  });
+const jsonData = JSON.parse(program.data).trim();
+
+if (jsonData) {
+  app
+    .createFileFromSourceFile(source, destination)
+    .then((results) => {
+      console.log("Success");
+      console.log(results);
+    })
+    .catch((error) => {
+      console.log("Error");
+      console.error(error);
+    });
+} else {
+  console.log("No jsonData found");
+  process.exit(0);
+}
