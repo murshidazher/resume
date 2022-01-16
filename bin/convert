@@ -37,14 +37,14 @@ if (program.file) {
     .trim();
 } else {
   console.log("No data found");
-  process.exit(0);
+  process.exit(1);
 }
 
 const jsonData = JSON.parse(program.data).trim();
 
 if (jsonData) {
   app
-    .createFileFromSourceFile(source, destination)
+    .createFileFromSourceFile(source, destination, jsonData)
     .then((results) => {
       console.log("Success");
       console.log(results);
@@ -55,5 +55,5 @@ if (jsonData) {
     });
 } else {
   console.log("No jsonData found");
-  process.exit(0);
+  process.exit(1);
 }
