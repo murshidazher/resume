@@ -1,0 +1,36 @@
+# .github/workflows/pull_request.yml
+name: Push CI
+on:
+  - pull_request
+
+jobs:
+  build_checks:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 8.x
+
+      - name: Install npm packages
+        run: |
+          npm run install
+
+      - name: Run convert file
+        run: |
+          npm run convert -- src/examples/index.html out/index.pdf --data '{"name": "Your Name", "dateformat": "MMM YYYY", "title": "Lorem ipsum dolor."}'
+
+      - name: Check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "out/index.pdf"
+          allow_failure: false
+
+      - name: File doesn't exists
+        if: steps.check_files.outputs.files_exists != 'true'
+        run: exit 1
+
+      - name: File exists
+        run: echo "Successfully, Generated the file."
