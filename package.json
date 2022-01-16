@@ -21,7 +21,7 @@
     "chalk": "2.4.2",
     "cli-spinner": "0.2.8",
     "commander": "2.15.1",
-    "cookie-parser": "1.4.3",
+    "cookie-parser": "1.4.6",
     "dayjs": "^1.9.4",
     "debug": "3.1.0",
     "express": "4.16.3",
