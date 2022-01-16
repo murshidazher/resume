@@ -33,11 +33,10 @@ if (typeof source === "undefined" || typeof destination === "undefined") {
 if (program.file) {
   program.data = fs
     .readFileSync(program.file.trim(), "utf8")
-    .replace(/^\uFEFF/, "")
-    .trim();
+    .replace(/^\uFEFF/, "");
 }
 
-const jsonData = JSON.parse(program.data).trim();
+const jsonData = JSON.parse(program.data.trim());
 
 if (jsonData) {
   app
