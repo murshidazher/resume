@@ -35,9 +35,6 @@ if (program.file) {
     .readFileSync(program.file.trim(), "utf8")
     .replace(/^\uFEFF/, "")
     .trim();
-} else {
-  console.log("No data found");
-  process.exit(1);
 }
 
 const jsonData = JSON.parse(program.data).trim();
