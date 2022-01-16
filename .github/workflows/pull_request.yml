@@ -1,11 +1,11 @@
 # .github/workflows/pull_request.yml
-name: Push CI
+name: Pull Request CI
 on:
   - pull_request
 
 jobs:
   build_checks:
-    name: CI
+    name: Pull Request CI
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
