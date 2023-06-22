@@ -13,7 +13,7 @@
     "convert": "node ./bin/convert",
     "gen:pdf": "npm run convert -- src/examples/index.html out/index.pdf --data '{\"name\": \"Awesome\", \"dateformat\": \"MMM YYYY\", \"content\": \"Lorem ipsum dolor.\"}'"
   },
-  "author": "Murshid Azher",
+  "author": "Murshid Azher <hello@murshidazher.com>",
   "license": "MIT",
   "dependencies": {
     "bluebird": "3.7.2",
