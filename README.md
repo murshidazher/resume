@@ -63,6 +63,16 @@ $ npm install
 $ yarn install  # or yarn
 ```
 
+### Deployment
+
+> If you run across the following error `(libssl_conf.so): libssl_conf.so: cannot open shared object file`
+
+Add the following to the environment variable
+
+```sh
+OPENSSL_CONF=/etc/ssl/
+```
+
 ## Usage
 
 ### Command line
@@ -88,7 +98,7 @@ $ node bin/convert src/examples/index.html out/index.pdf --data '{"name": "Your 
 Start server
 
 ```bash
-$ npm start
+npm start
 ```
 
 Then open your `http://localhost:3000/` within your favorite browser.

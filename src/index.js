@@ -85,7 +85,12 @@ class HtmlToPdf {
         height: '0',
       },
       quality: '100',
-      timeout: '100000'
+      timeout: '100000',
+      childProcessOptions: {
+        env: {
+          OPENSSL_CONF: '/dev/null',
+        },
+      },
     };
   }
 }
