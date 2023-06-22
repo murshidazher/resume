@@ -65,8 +65,9 @@ $ yarn install  # or yarn
 
 ### Deployment
 
-> If you run across the following error `(libssl_conf.so): libssl_conf.so: cannot open shared object file`
+> The stackoverflow [link](https://stackoverflow.com/questions/72727784/ssl-error-when-using-html-pdf-in-a-render-instance)
 
+If you run across the following error `(libssl_conf.so): libssl_conf.so: cannot open shared object file`,
 Add the following to the environment variable
 
 ```sh
