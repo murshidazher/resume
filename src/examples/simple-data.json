@@ -21,13 +21,22 @@
   ],
   "experience": [
     {
+      "company": ":Different",
+      "position": "Senior Software Engineer",
+      "duration": {
+        "start": "Aug 2021",
+        "end": null
+      },
+      "description": "Developed, occasionally led, and maintained FinTech products for Australia's leading Property Management-as-a-Service company. Created automated rent rolls, transparent audit trails, and more."
+    },
+    {
       "company": "Atera Technologies",
       "position": "Software Engineer",
       "duration": {
         "start": "Mar 2020",
-        "end": null
+        "end": "Aug 2021"
       },
-      "description": "Developed and and maintained a SaaS product to make hiring process seamless for enterprises. Involved in every phase of the product development process from design analysis to ideation, wire-framing, system architecture, and full-stack development. Developed and maintained 'Resume extractor model' azure function app. Used Azure, C# services, Angular, and more..."
+      "description": "Developed and maintained a seamless SaaS product for enterprise hiring processes. Involved in full-stack development, system architecture, and machine learning models."
     },
     {
       "company": "Top Bug Education",
@@ -36,7 +45,7 @@
         "start": "Feb 2018",
         "end": "Dec 2018"
       },
-      "description": "Coordinated efficiently with a team of 12 members with skills in engineering and design while participating in peer design critiques to give and receive feedbacks. Building front-end and integrating design features which accelerate delivery time and decrease site crashes. Transitioned app from AngularJS front-end to React + Redux resulting in a cleaner design and faster execution."
+      "description": "Efficiently collaborated to improve engineering process, built end-to-end features to enhance delivery time and stability, leading to a cleaner design and improved performance."
     }
   ],
   "education": [
