@@ -5,7 +5,7 @@
   "main": "bin/www",
   "engines": {
     "node": "18.17.0",
-    "npm": "9.7.2"
+    "npm": "9.8.1"
   },
   "scripts": {
     "start": "NODE_ENV=dev node ./bin/www",
