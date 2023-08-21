@@ -9,14 +9,19 @@
       "content": "hello@murshidazher.com"
     },
     {
-      "title": "linkedin",
-      "url": "https://linkedin.com/in/murshidazher",
-      "content": "linkedin.com/in/murshidazher"
-    },
-    {
       "title": "website",
       "url": "https://murshidazher.com",
       "content": "murshidazher.com"
+    },
+    {
+      "title": "cv",
+      "url": "https://read.cv/murshidazher",
+      "content": "read.cv/murshidazher"
+    },
+    {
+      "title": "phone",
+      "url": "",
+      "content": "(XXXX) XX XXX XXXX"
     }
   ],
   "experience": [
@@ -84,9 +89,8 @@
         "React",
         "Angular",
         "React Native",
-        "Svelte",
-        "Express",
-        "Redux"
+        "Redux",
+        "Express"
       ]
     },
     {
@@ -94,20 +98,18 @@
       "content": [
         "TypeScript",
         "CSS3 & SCSS",
-        "HTML5",
+        "JavaScript",
         "Python",
-        "Java",
-        "JavaScript"
+        "Java"
       ]
     },
     {
       "title": "Tools",
       "content": [
-        "Basic DevOps",
+        "DevOps",
         "Docker",
         "Kubernetes",
         "AWS",
-        "Firebase",
         "Azure"
       ]
     }
@@ -115,8 +117,8 @@
   "social": [
     [
       {
-        "title": "dribbble",
-        "url": "https://dribbble.com/murshidazher",
+        "title": "linkedin",
+        "url": "https://linkedin.com/in/murshidazher",
         "content": "linkedin.com/in/murshidazher"
       },
       {
@@ -132,9 +134,9 @@
         "content": "twitter.com/murshidazher"
       },
       {
-        "title": "medium",
-        "url": "https://medium.com/@imurshid",
-        "content": "medium.com/@imurshid"
+        "title": "dribbble",
+        "url": "https://dribbble.com/murshidazher",
+        "content": "dribbble.com/murshidazher"
       }
     ]
   ]

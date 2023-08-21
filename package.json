@@ -4,7 +4,6 @@
   "description": "A simple tool to automate my resume generation.",
   "main": "bin/www",
   "engines": {
-    "node": "18.17.1",
     "npm": "9.8.1"
   },
   "scripts": {
