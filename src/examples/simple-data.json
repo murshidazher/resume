@@ -21,16 +21,25 @@
     {
       "title": "phone",
       "url": "",
-      "content": "(XXXX) XX XXX XXXX"
+      "content": "0094XXXXXXXXX"
     }
   ],
   "experience": [
+    {
+      "company": "iVedha Inc",
+      "position": "Observability Engineer",
+      "duration": {
+        "start": "Sept 2023",
+        "end": null
+      },
+      "description": "Consulting with a major client to provide expertise in development and Site Reliability Engineering, with a primary emphasis on creating observability solutions for large corporations."
+    },
     {
       "company": ":Different",
       "position": "Senior Software Engineer",
       "duration": {
         "start": "Aug 2021",
-        "end": null
+        "end": "Jul 2023"
       },
       "description": "Developed, occasionally led, and maintained FinTech products for Australia's leading Property Management-as-a-Service company. Created automated rent rolls, transparent audit trails, and more."
     },
@@ -42,15 +51,6 @@
         "end": "Aug 2021"
       },
       "description": "Developed and maintained a seamless SaaS product for enterprise hiring processes. Involved in full-stack development, system architecture, and machine learning models."
-    },
-    {
-      "company": "Top Bug Education",
-      "position": "Software Engineer",
-      "duration": {
-        "start": "Feb 2018",
-        "end": "Dec 2018"
-      },
-      "description": "Efficiently collaborated to improve engineering process, built end-to-end features to enhance delivery time and stability, leading to a cleaner design and improved performance."
     }
   ],
   "education": [
@@ -59,7 +59,7 @@
       "certification": null,
       "duration": {
         "start": "Jan 2021",
-        "end": null
+        "end": "Jul 2023"
       },
       "description": "Master of Science in Advance Software Engineering."
     },
