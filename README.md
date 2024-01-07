@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/murshidazher/resume/master/src/server/public/favicon-lg.png" width="75px">
+<img src="https://res.cloudinary.com/murshidazher/image/upload/w_auto,dpr_1.0,c_scale,f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_100/logo.png" width="75px">
 
 # [resume](https://github.com/murshidazher/resume)
 
