@@ -25,7 +25,7 @@ dependencies:
     version: 1.4.6
   dayjs:
     specifier: ^1.9.4
-    version: 1.9.4
+    version: 1.11.10
   debug:
     specifier: 4.3.4
     version: 4.3.4
@@ -270,8 +270,8 @@ packages:
     dev: false
     optional: true
 
-  /dayjs@1.9.4:
-    resolution: {integrity: sha512-ABSF3alrldf7nM9sQ2U+Ln67NRwmzlLOqG7kK03kck0mw3wlSSEKv/XhKGGxUjQcS57QeiCyNdrFgtj9nWlrng==}
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
     dev: false
 
   /debug@2.6.9:
