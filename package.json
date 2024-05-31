@@ -22,7 +22,7 @@
     "commander": "11.1.0",
     "cookie-parser": "1.4.6",
     "dayjs": "^1.9.4",
-    "debug": "4.3.4",
+    "debug": "4.3.5",
     "express": "4.19.2",
     "hjs": "0.0.6",
     "html-pdf": "~3.0.1",
